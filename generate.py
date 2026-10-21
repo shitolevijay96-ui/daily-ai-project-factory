@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 API_KEY = os.environ["GEMINI_API_KEY"]
-MODEL = "gemini-2.5-flash-lite"
+MODEL = "gemini-3.5-flash-lite"
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 ROOT = Path("projects") / TODAY
 
